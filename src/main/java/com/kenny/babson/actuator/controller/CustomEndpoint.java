@@ -6,7 +6,7 @@ import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 import org.springframework.stereotype.Component;
 
 @Component
-@Endpoint(id="ActuatorExample", enableByDefault = true)
+@Endpoint(id="actuatorExample", enableByDefault = true)
 public class CustomEndpoint {
 
     @ReadOperation
